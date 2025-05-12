@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="website.css">
+</head>
+<body>
+  <header>
+    <nav class="name">
+      <a href="#" class="Name">wassil</a>
+    </nav>
+    <nav class="nav-links" id="navLinks">
+      <ul>
+        <li><a href="#services">services</a></li>
+        <li><a href="#contact">contact</a></li>
+        <li><a href="#project">projects</a></li>
+      </ul>
+    </nav>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <section class="main">
+    <div>
+      <h2 class="h">
+        <span class="first-name">Hello, I'm Wassil</span><br>
+        <span class="web">Web Developer</span>
+      </h2>
+      <h3 class="hb">I build life-changing websites</h3>
+      <a class="button"><button class="botton">View My Work</button></a>
+      <div class="socials">
+        <a href="#"><i class="fa-brands fa-facebook-messenger"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="service" id="services">
+    <h2 class="se-name">Services</h2>
+    <div class="layouts">
+      <div class="firstlayout">
+        <div class="symbol"><i class="fa-solid fa-code"></i></div>
+        <h3 class="web">Web Development</h3>
+        <p class="text">I create responsive and modern websites using HTML, CSS, and JavaScript to help businesses stand out online.</p>
+      </div>
+      <div class="firstlayout">
+        <div class="symbol"><i class="fa-solid fa-pen-nib"></i></div>
+        <h3 class="web">Script Writing</h3>
+        <p class="text">I write clear, engaging scripts and content for videos, websites, and social media. I can turn ideas into powerful messages.</p>
+      </div>
+      <div class="firstlayout">
+        <div class="symbol"><i class="fa-solid fa-paintbrush"></i></div>
+        <h3 class="web">Web Design</h3>
+        <p class="text">I design layout, colors, and styles of websites to make them visually appealing and easy to use.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="project" id="project">
+    <h2 class="title">Projects</h2>
+    <div class="content">
+      <div class="premiemlayout">
+        <img src="Screenshot 2025-05-04 173746.png" class="imgproject" alt="Landing page project">
+        <p class="textdescribe">My landing page</p>
+        <a href="https://wassil555.github.io/landingpage./" target="_blank" class="seemore"><strong class="word">Website</strong><span class="view"> details</span></a>
+      </div>
+      <div class="premiemlayout">
+        <img src="Screenshot 2025-05-04 174225.png" class="imgproject" alt="Ecommerce project">
+        <p class="textdescribe">My ecommerce website</p>
+        <a href="https://wassil555.github.io/e-commerce/" target="_blank" class="seemore"><strong class="word">Website</strong><span class="view"> details</span></a>
+      </div>
+      <div class="premiemlayout">
+        <img src="Screenshot 2025-05-06 162830.png" class="imgproject" alt="Coffee shop project">
+        <p class="textdescribe">Real-life coffee shop website</p>
+        <a href="https://wassil555.github.io/coffee-shop/" target="_blank" class="seemore"><strong class="word">Website</strong><span class="view"> details</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="title3">Let's Work Together</h2>
+    <div class="contactlayouts">
+      <div class="contacteachlayout">
+        <div class="contactsymbol"><i class="fa-solid fa-phone"></i></div>
+        <p class="phoneword">Phone</p>
+        <p class="phonenumer">+216 2149 8497</p>
+      </div>
+      <div class="contacteachlayout">
+        <div class="contactsymbol"><i class="fa-solid fa-phone"></i></div>
+        <p class="phoneword">Phone</p>
+        <p class="phonenumer">+214 2149 8497</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="lastsection">
+    <p class="lsname">Copyright <span class="lsspan">@ Wassil</span></p>
+    <div class="socials">
+      <a href="#"><i class="fa-brands fa-facebook-messenger"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("navLinks").classList.toggle("show");
+    }
+  </script>
+</body>
+</html>
